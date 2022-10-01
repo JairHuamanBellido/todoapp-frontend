@@ -2,8 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styled from "styled-components";
 
-
-const StyledTitle =  styled.h1``
+const StyledTitle = styled.h1`
+  color: ${({ theme }) => theme.colors.highlightPrimary.default};
+  ${({ theme }) => theme.fontSize.heading.l}
+`;
 const Home: NextPage = () => {
   return (
     <>
