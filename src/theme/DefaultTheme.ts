@@ -1,5 +1,8 @@
-import { colors } from "./colors/colors";
-import { HeadingTypography } from "./typography/typography";
+import { colors } from './colors/colors';
+import {
+  HeadingTypography,
+  ParagraphTypography,
+} from './typography/typography';
 
 export const DefaultTheme = {
   colors: {
@@ -70,6 +73,9 @@ export const DefaultTheme = {
   fontSize: {
     heading: {
       ...HeadingTypography,
+    },
+    paragraph: {
+      ...ParagraphTypography,
     },
   },
 };
