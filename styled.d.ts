@@ -1,6 +1,6 @@
 // import original module declarations
 import "styled-components";
-import { DefaultTheme } from "./src/theme/DefaultTheme";
+import { DefaultTheme } from "./theme/DefaultTheme";
 
 type CustomTheme = typeof DefaultTheme;
 // and extend them!
